@@ -1,11 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Glasögongalleri</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+    <header>
+        <h1 class="logo">SPECKS</h1>
+        <div class="meny">
+            <button onclick="visaAlla()">Visa Alla</button>
+            <button onclick="visaSol()">Solglasögon</button>
+            <button onclick="visaVanliga()">Vanliga Glasögon</button>
+        </div>
+    </header>
+
+    <div class="galleri-grid">
+        
+        <div class="galleri-box solglasogon">
+            <img src="https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=400" alt="Solglasögon">
+            <h3>Classic Sun</h3>
+            <p>Gjorda i brun plast. Passar perfekt för en fika i solen på ett mysigt café.</p>
+        </div>
+
+        <div class="galleri-box vanliga-glasogon">
+            <img src="https://images.unsplash.com/photo-1574258495973-f010dfbb5371?w=400" alt="Runda glasögon">
+            <h3>Urban Round</h3>
+            <p>Gjorda i tunn och lätt metall. Passar bäst i skolan eller när man jobbar vid datorn.</p>
+        </div>
+
+        <div class="galleri-box solglasogon">
+            <img src="https://images.unsplash.com/photo-1508296695146-257a814070b4?w=400" alt="Mörka solglasögon">
+            <h3>Noir Aviator</h3>
+            <p>En klassisk pilotmodell med mörkt glas. Perfekt för stan eller en roadtrip i bilen.</p>
+        </div>
+
+        <div class="galleri-box vanliga-glasogon">
+            <img src="https://images.unsplash.com/photo-1591076482161-42ce6da69f67?w=400" alt="Fyrkantiga glasögon">
+            <h3>Studio Square</h3>
+            <p>Tjocka, genomskinliga bågar. Ger en cool och konstnärlig stil på museum eller vernissage.</p>
+        </div>
+
+        <div class="galleri-box solglasogon">
+            <img src="https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=400" alt="Guld solglasögon">
+            <h3>Midnight</h3>
+            <p>Svarta bågar som kombinerar en elegant estetik med en minimalistisk känsla. </p>
+        </div>
+
+        <div class="galleri-box vanliga-glasogon">
+    <img src="https://images.unsplash.com/photo-1509695507497-903c140c43b0?w=400" alt="Svarta glasögon">
+    <h3>Nordic Horizon</h3>
+    <p>Klassiska svarta, stilrena bågar. Passar till allt, särskilt till viktiga möten.</p>
+</div>
+
+    </div>
+
+    <footer>
+        <div class="kontakt-sektion">
+            <h2>Kontakta Oss</h2>
+            <p>Har du frågor om våra glasögon eller vill boka en tid i galleriet?</p>
+            
+            <div class="kontakt-info">
+                <p><strong>E-post:</strong> info@specks.se</p>
+                <p><strong>Telefon:</strong> 08-123 45 67</p>
+                <p><strong>Adress:</strong> Glasgatan 10, Stockholm</p>
+            </div>
+            
+            <p class="copyright">&copy; 2026 SPECKS Gallery. Sepehr Shakeri</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
-</html>
+</html> 
